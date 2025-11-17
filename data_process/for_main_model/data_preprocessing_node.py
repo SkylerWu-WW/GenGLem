@@ -408,9 +408,9 @@ class SMILESProcessor:
 
 
 if __name__ == "__main__":
-    base_dir = r"C:\Users\M340024\Graph_for_conformer\lammps_data"
-    output_dir = r"C:\Users\M340024\Graph_for_conformer\dataset_for_Graph_node"
-    excel_file_path = r"C:\Users\M340024\Graph_for_conformer\SMILES.xlsx"
+    base_dir = r""
+    output_dir = r""
+    excel_file_path = r""
 
     # 创建 SMILESProcessor 对象并加载数据
     smiles_processor = SMILESProcessor(excel_file_path)
@@ -443,6 +443,7 @@ if __name__ == "__main__":
         print(f"Processing folder: {folder_name}")
         process_mol(base_dir, folder_name, output_dir)
         print(f"Finished processing folder: {folder_name}")
+
 
 
 
