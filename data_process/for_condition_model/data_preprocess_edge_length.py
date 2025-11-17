@@ -78,8 +78,8 @@ def process_all_xyz(input_dir, output_dir, bonds):
 
 if __name__ == "__main__":
     # 文件夹路径请根据实际情况修改
-    input_folder = r"C:\Users\M340024\Graph_for_conformer\condition_data\dataset_costruc"
-    output_folder = r"C:\Users\M340024\Graph_for_conformer\condition_data\npy_edge_dataset_sum"
+    input_folder = r""
+    output_folder = r""
 
     # 预先定义好键对应的原子索引（注意：原子索引从 0 开始）
     # 例如：(0, 1) 表示第 0 个原子和第 1 个原子之间存在一条键
@@ -127,3 +127,4 @@ if __name__ == "__main__":
 
 
     process_all_xyz(input_folder, output_folder, bonds)
+
