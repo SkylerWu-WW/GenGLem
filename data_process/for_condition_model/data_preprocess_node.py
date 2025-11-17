@@ -401,9 +401,9 @@ class SMILESProcessor:
 
 
 if __name__ == "__main__":
-    input_dir = r"C:\Users\M340024\Graph_for_conformer\condition_data\testetstetstetste\dataset"
-    output_dir = r"C:\Users\M340024\Graph_for_conformer\condition_data\testetstetstetste\npy_node_dataset_sum"
-    excel_file_path = r"C:\Users\M340024\Graph_for_conformer\condition_data\SMILES.xlsx"
+    input_dir = r""
+    output_dir = r""
+    excel_file_path = r""
 
     # 创建 SMILESProcessor 对象并加载数据
     smiles_processor = SMILESProcessor(excel_file_path)
@@ -430,6 +430,7 @@ if __name__ == "__main__":
     print(f"Processing all .xyz in {input_dir}, saving to {output_dir} …")
     process_mol(input_dir, output_dir)
     print("Done.")
+
 
 
 
