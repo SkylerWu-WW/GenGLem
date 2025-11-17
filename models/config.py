@@ -1,9 +1,9 @@
 config = {
-    "node_dir": r"C:\Users\M340024\Graph_for_conformer\dataset_for_Graph_node",
-    "edge_dir": r"C:\Users\M340024\Graph_for_conformer\dataset_for_Graph_edge",
-    "node_output": r"C:\Users\M340024\Graph_for_conformer\node_features_output",
-    "model_output": r"C:\Users\M340024\Graph_for_conformer\model_output",
-    "new_conformer_output": r"C:\Users\M340024\Graph_for_conformer\new_conformer_output",
+    "node_dir": r"",
+    "edge_dir": r"",
+    "node_output": r"",
+    "model_output": r"",
+    "new_conformer_output": r"",
     "hidden_dim": 64,
     "z_dim": 8,
     "num_epochs": 200,
@@ -26,6 +26,7 @@ config = {
     "nonbond_threshold": 1.38,
     "global_std": 0.0
 }
+
 
 
 
