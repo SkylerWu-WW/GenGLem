@@ -159,8 +159,9 @@ class AngleCalculator:
 
 
 if __name__ == "__main__":
-    input_folder = r"C:\Users\M340024\Graph_for_conformer\condition_data\dataset_costruc"
-    output_folder = r"C:\Users\M340024\Graph_for_conformer\condition_data\npy_bond_angel_dataset_sum"
+    input_folder = r""
+    output_folder = r""
     calc = AngleCalculator(input_folder, output_folder)
     calc.process_xyz_files()
+
 
