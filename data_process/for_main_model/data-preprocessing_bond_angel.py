@@ -120,12 +120,13 @@ class get_bond_data:
 
 
 # 示例用法
-base_dir = r"C:\Users\M340024\Graph_for_conformer\lammps_data"
-excel_file_path = r"C:\Users\M340024\Graph_for_conformer\SMILES.xlsx"
-output_dir = r"C:\Users\M340024\Graph_for_conformer\dataset_for_bond_angel"
+base_dir = r""
+excel_file_path = r""
+output_dir = r""
 
 bond_data = get_bond_data(base_dir, excel_file_path, output_dir)
 bond_data.process_molecules()
+
 
 
 
