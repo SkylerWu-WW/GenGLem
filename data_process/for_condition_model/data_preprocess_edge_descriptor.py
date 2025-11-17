@@ -97,9 +97,10 @@ def process_bond_properties(pdb_file, output_dir):
 
 if __name__ == "__main__":
     # 修改 pdb 文件名为实际存在的文件
-    pdb_file = r"C:\Users\M340024\Graph_for_conformer\condition_data\pdb.pdb"
-    output_dir = r"C:\Users\M340024\Graph_for_conformer\condition_data"
+    pdb_file = r""
+    output_dir = r""
     process_bond_properties(pdb_file, output_dir)
+
 
 
 
