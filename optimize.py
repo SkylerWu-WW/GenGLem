@@ -86,9 +86,9 @@ def create_gaussian_input(mol, output_file):
 
 def main():
     # 文件和目录路径设置，请根据实际情况修改
-    npy_file = r"C:\Users\M340024\Graph_for_conformer\evaluate\evaluate\72\GGVAE\lammps_72_new_conformers.npy"
-    mol_file = r"C:\Users\M340024\Graph_for_conformer\Rdkit_coordinates\72.mol"
-    output_dir = r"C:\Users\M340024\Graph_for_conformer\evaluate\evaluate\72\GGVAE"
+    npy_file = r""
+    mol_file = r""
+    output_dir = r""
 
     # 确保输出目录存在
     os.makedirs(output_dir, exist_ok=True)
@@ -158,4 +158,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
