@@ -8,6 +8,9 @@ Python 3.11
 
 Key packages: see `requirements.txt`
 
+# Datasets
+Entire programm can also be downloaded from google drive since some files are to big: 
+
 # Quick start
 ```bash
 python -m venv .venv
